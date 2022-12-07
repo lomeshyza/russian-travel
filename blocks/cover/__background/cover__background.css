@@ -1,0 +1,28 @@
+.cover__background{
+    background-image:url('../../../images/cover__background.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    max-width: 100%;
+    text-align: center;
+    justify-content:center;
+    min-height: 740px;
+    }
+@media screen and (max-width : 1024px) {
+        .cover__background{
+            max-width: 1024px;
+            min-height: 563px;         
+        }
+    }
+    
+@media screen and (max-width : 768px) {
+        .cover__background{
+            max-width : 768px;
+            min-height: 403px;
+        }  
+    }
+@media screen and (max-width : 320px) {
+        .cover__background{
+            max-width : 320px;
+            min-height: 181px;
+        }  
+    }

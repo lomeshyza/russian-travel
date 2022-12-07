@@ -1,0 +1,62 @@
+@import url(../vendor/normalize.css);
+@import url(../blocks/body/body.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_en/header__lang-link_en.css);
+@import url(../blocks/header/__lang-link/_ru/header__lang-link_ru.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__span/intro__span.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/places/plases.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@font-face {
+    font-family: 'Inter','Arial', sans-serif;
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+         url("../fonts/Inter-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter','Arial', sans-serif;
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+         url("Inter-Bold.woff?v=3.19") format("woff");
+  }
+@font-face {
+    font-family: 'Inter','Arial', sans-serif;
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("../fonts/Inter-Black.woff2") format("woff2"),
+         url("../fonts/Inter-Black.woff") format("woff");
+  }

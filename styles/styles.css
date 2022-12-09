@@ -1,291 +1,55 @@
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url("Inter-Black.woff2?v=3.19") format("woff2"),
-         url("Inter-Black.woff?v=3.19") format("woff");
-  }
-  @font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
-         url("Inter-Regular.woff?v=3.19") format("woff");
-  }
-.body{
-  background-color: #E5E5E5;
-}
-.page{
-  background-color: #2A2C2F;
-  max-width: 1280px;
-  min-height: 6895px;
-  font-family:'Inter';
-  color: #FFFFFF;
-}
-.header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:0 48px;
-    box-sizing:border-box;
-}
-.header__logo{
-    max-width: 100%;
-}
-.header__lang-link{
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: right;
-    justify-items:center;
-    
-}
-.header__lang-link_en{
-text-decoration-line: none;
-color: #FFFFFF;
-}
-.header__lang-link_ru{
-color: #FFFFFF;
-}
 
-.lead{
-    border: 1px solid red;
-    padding:0 148px;
-    box-sizing:border-box;
-}
-.lead__image{
-    background-image:url('../images/lead-polka.jpg');
-    max-width: 100%;
-    padding-bottom: 62%;
-    background-size: cover;
-    border: 1px solid red;
-    margin:0;
-    
-}
-.lead__caption{
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 1.4;
-    text-transform: uppercase;
-    border: 1px solid red;
-    margin:0;
-    margin-top:8px;
 
+*{border: 1px solid red;
+    box-sizing:border-box;}
+.html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.lead__title{
-font-style: normal;
-font-weight: 900;
-font-size: 96px;
-line-height: 1.04;
-text-align: center;
-margin:0;
-margin-top:56px;
-
-}
-.lead__subtitle{
-    font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 1.2;
-text-align: center;
-margin-top:32px;
-margin-bottom: 64px;
-}
-.intro{
-    padding-left:148px;
-    padding-bottom:80px;
-    padding-right:442px;
-    border: 1px solid red;
-    box-sizing:border-box;
-}
-.intro__titel{
-    font-style: normal;
-font-weight: 900;
-font-size: 54px;
-line-height: 58px;
-margin:0;
-margin-top:92px;
-margin-bottom:40px;
-
-}
-.intro__text{
-       max-width:100%;
-    font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-margin:0;
-margin-bottom:33px;
-
-}
-.intro__list{
-    padding:0;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 19px;
-    list-style-type:none;
-    border: 1px solid red;
-}
-.intro__span{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-}
-
-.photo-grid{
-    display:grid;
-    padding:12px 48px;
-    box-sizing:border-box;
-    max-width: 100%;
-    grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));
-    grid-template-rows: repeat(3, auto);
-    gap: 16px;
-    border: 1px solid red;
-    margin:0;
-    overflow: hidden;
-}
-.photo-grid__image{
-
- max-width: 100%;
-}
-.places{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    padding:0 148px;
-    
-    box-sizing:border-box;
-}
-.place{
-  border: 1px solid yellow;
-  max-width:100%;
-  display: grid;
-  grid-template-columns:repeat(2, minmax(460px,auto));
-  grid-template-rows: auto;
-  grid-gap: 48px 40px;
-  flex-wrap:wrap;
-  padding-top:80px;
-  box-sizing:border-box;
-  overflow: hidden;
-}
-.place__title{
-    font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-border: 1px solid red;
-margin:0;
-
-align-self:bottom;
-}
-.place__image{
-   max-width: 100%;
-   border: 1px solid red;  
-}
-.place__website{
-    align-self:bottom;
-    margin:0;
-    overflow: hidden;
-  margin-top:106px;
-  border: 1px solid red;
-}
-.place__url-heading{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 22px;
-
-}
-.place__link{
-    font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 12px;
-}
-.place__paragraph{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    max-width: 484px;
-    margin:0;
-    margin-bottom:26px;
-    border: 1px solid red;
-
-}
-.cover{
-    padding:0 48px;
-    border: 1px solid red;
-    box-sizing:border-box;
-   
-}
+/*
 .cover__background{
     background-image:url('../images/cover__background.jpg');
-    background-size: cover;
-    background-repeat:no-repeat;
     max-width: 100%;
-    
-    border: 3px solid yellow;
-    text-align: center;
-    justify-content:center;
-}
-.cover__background{
-    
-}
-.cover__overlay{
-    border: 2px solid blue;
-    color: #FFFFFF;
-    text-decoration: none;
-    display:block;
-    padding:0 312px;
-    
-    box-sizing:border-box;
-}
-.cover__overlay:hover{
-    background-color: rgba(42, 44, 47, 0.3);
-    
-}
-.cover__title{
-z-index:1;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 1.6;
-border: 1px solid red;
-display:block;
-}
-.cover__subtitle{
-    z-index:1;
-      font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 1.22;
-text-align: center;
-border: 1px solid red;
-display:block;
-}
-.footer{
- display:flex;
- justify-content:space-between;
- padding:0 48px;
- box-sizing:border-box;
-}
-.footer__links{
+  }
+  .cover__overlay{
+    min-height: 740px;
+    min-width: 320px;
     display:flex;
-    list-style-type:none;
-    
-    border: 1px solid red;
-    padding:0;
-    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(42, 44, 47, 0.3);
+  }
+.cover__background{
+   
+   color: #FFFFFF;
+   display: block;
+ height: 100%;
+ width: 100%;
+ background-color:rgb(42, 44, 47, 0.8);
+   opacity: 1;
+  }
+  .cover__background:hover{
+      opacity: 0.8;
+  }
+  */
+/*
+@media screen and (max-width : 320px) {
+    .photo-grid{
+    padding:12px 16px;
+    gap: 12px;
+    box-sizing: border-box;
+    }
 }
-.footer__link{
-    margin-right:18px;
-    text-decoration:none;
-    color: #FFFFFF;
-}
+*/
+
+/*
+   @media screen and (max-width : 320px) {
+    .place{
+        grid-gap: 48px 40px;
+       gap: 12px;
+        padding-top:50px; 
+    }
+   }
+*/

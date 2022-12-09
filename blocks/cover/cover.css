@@ -1,12 +1,31 @@
 .cover{
-    padding:92px 48px;
+    padding-top:91px;
+    padding-bottom: 77px;
+    padding-left: 48px;
+    padding-right: 48px;
     box-sizing:border-box;
     min-height: 740px;
    }
+
+@media screen and (max-width : 1024px) {
+    .cover{
+        padding: 94px 0px;
+        padding-bottom: 69px;
+        min-height: 200px;
+    }  
+}
+@media screen and (max-width : 768px) {
+    .cover{
+        padding: 29px 0px;
+        padding-bottom: 30px;
+        min-height: 200px;
+ }
+}
+
 @media screen and (max-width : 320px) {
     .cover{
-        padding: 52px 0px;
-        padding-bottom: 64px;
-        min-height: 181px;
+        padding:44px 0px;
+        padding-bottom:71px;
+        min-height: 200px;
     }  
 }

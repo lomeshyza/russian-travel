@@ -7,6 +7,11 @@
     padding-top:25px;
     box-sizing:border-box;
   }
+@media screen and (max-width : 1024px){
+  .header{
+
+  }
+}
 @media screen and (max-width : 768px) {
   .header{
     padding-left:24px;
@@ -20,3 +25,4 @@
     padding-top: 16px;
   }
 }
+<br/>${store.businessRegistrationID.name}: ${store.businessRegistrationID.value}

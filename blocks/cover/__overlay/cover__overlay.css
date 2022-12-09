@@ -15,18 +15,18 @@
 @media screen and (max-width : 1024px) {
     .cover__overlay{
         max-width: 1024px;
-        min-height: 563px;      
+        min-height: 640px;      
     }
 }
 @media screen and (max-width : 768px) {
   .cover__overlay{
       max-width : 768px;
-      min-height: 403px;
+      min-height: 480px;
   }  
 }
 @media screen and (max-width : 320px) {
   .cover__overlay{
       max-width : 320px;
-      min-height: 181px;
+      min-height: 200px;
   }  
 }

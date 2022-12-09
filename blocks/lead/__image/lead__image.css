@@ -2,18 +2,3 @@
     max-width: 100%;
     margin:0;
     }
-  @media screen and (max-width : 1024px) {
-    .lead__image{
-      min-height: 579px;
-    }
-  }
-  @media screen and (max-width : 768px) {
-    .lead__image{
-      min-height: 482px;
-    }
-  }
-@media screen and (max-width : 320px) {
-  .lead__image{
-    min-height: 200px;
-  }
-}

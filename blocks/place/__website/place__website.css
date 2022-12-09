@@ -5,7 +5,7 @@
     margin:0;
     overflow: hidden;
   }
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
     .place__website{
         padding:22px 16px;
     }

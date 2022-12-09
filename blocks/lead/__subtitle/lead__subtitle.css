@@ -8,19 +8,19 @@
     margin-bottom: 64px;
     padding: 0 191px;
   }
-@media screen and (max-width : 1024px) {
+@media screen and (max-width: 1024px) {
     .lead__subtitle{
      padding: 0 144px;
      margin-bottom: 56px;
      margin-top: 31px;
     }
 }
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
     .lead__subtitle{
         padding: 0 64px;
     }
 }
-@media screen and (max-width : 320px) {
+@media screen and (max-width: 320px) {
     .lead__subtitle{
         margin-bottom:38px;
         font-size: 16px;

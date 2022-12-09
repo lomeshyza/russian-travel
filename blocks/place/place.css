@@ -22,6 +22,12 @@
         grid-template-columns: fit-content(340px) fit-content(352px);
     }
   }
+@media screen and (max-width : 550px) {
+    .place{
+        display: block;
+        padding-top: 61px;
+    }
+  }
 @media screen and (max-width : 320px) {
     .place{
         display: block;

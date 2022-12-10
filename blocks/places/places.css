@@ -2,24 +2,22 @@
     display:flex;
     flex-direction:column;
     align-items:center;
-    padding:0 148px;
     box-sizing:border-box;
     flex-wrap:wrap;
-    overflow: hidden;
+    max-width: 77%;
   }
 @media screen and (max-width: 1024px) {
     .places{
-        padding:0 48px;
+        max-width: 90%;
     }
 }
 @media screen and (max-width: 768px) {
     .places{
-        padding:0 24px;
+        max-width: 94%;
     }  
 }
 @media screen and (max-width: 320px) {
     .places{
-        padding:0;
-        box-sizing: border-box;
+        max-width: 100%;
     }
    }

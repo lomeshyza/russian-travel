@@ -2,29 +2,22 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 1.6;
     max-width: 484px;
     margin:0;
     margin-bottom:26px;
-    overflow: hidden;
   }
-.place__paragraph:nth-of-type(2) {
+.place__paragraph:last-of-type{
   margin-bottom:0;
 }
 @media screen and (max-width: 768px) {
     .place__paragraph{
-      font-weight: 400;
       font-size: 16px;
-      line-height: 26px;
-    }
+      }
   }
   @media screen and (max-width: 320px) {
     .place__paragraph{
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 26px;
-
-      padding:0 16px;
+      padding:0 20px;
       box-sizing: border-box;
     }
   }  

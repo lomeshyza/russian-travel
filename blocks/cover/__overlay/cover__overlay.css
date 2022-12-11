@@ -28,6 +28,5 @@
   .cover__overlay{
       max-width : 320px;
       min-height: 200px;
-      justify-content: space-evenly;
   }  
 }

@@ -18,14 +18,14 @@
 }
 @media screen and (max-width: 768px) {
     .cover{
-        padding: 75px 0px;
+        padding: 90px 0px;
         padding-bottom: 66px;
         min-height: 200px;
  }
 }
 @media screen and (max-width: 320px) {
     .cover{
-        padding:45px 0px;
+        padding:66px 0px;
         padding-bottom:39px;
         min-height: 200px;
     }  

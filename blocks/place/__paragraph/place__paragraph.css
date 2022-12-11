@@ -2,13 +2,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1.6;
-    max-width: 484px;
+    line-height: 1.63;
     margin:0;
     margin-bottom:26px;
   }
 .place__paragraph:last-of-type{
-  margin-bottom:0;
+    margin-bottom:0;
 }
 @media screen and (max-width: 768px) {
     .place__paragraph{
@@ -17,7 +16,7 @@
   }
   @media screen and (max-width: 320px) {
     .place__paragraph{
-      padding:0 20px;
+      padding:0 16px;
       box-sizing: border-box;
     }
   }  

@@ -29,7 +29,8 @@
     .intro{
         padding-bottom:48px;
         padding-top:64px;
-        max-width: 89%;
+        max-width: 90%;
         margin-left: 16px;
+        margin-right: 16px;
     }
 }
